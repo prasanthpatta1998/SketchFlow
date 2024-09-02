@@ -5,7 +5,7 @@ import "tldraw/tldraw.css";
 const App = () => {
   return (
     <div>
-      <Tldraw className="tldraw"/>
+      <Tldraw className="tldraw" debugMode={true}/>
     </div>
   );
 };

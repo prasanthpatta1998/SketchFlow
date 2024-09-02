@@ -26,3 +26,9 @@ div > .tldraw {
   width: 100vw;
   min-width: 375px;
 }
+
+@media (max-width: 576px) {
+  .tlui-layout__bottom__main {
+    margin-bottom: 50px;
+  }
+}
